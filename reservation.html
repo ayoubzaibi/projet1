@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="conroles.js"></script>
+    <title>Atelier4-App1</title>
+</head>
+<body id="reserv">
+    <form action="finInscrit.html" onsubmit="return verif()" >
+        <fieldset>
+            <legend>Formulaire de Réservation</legend>
+            <div>
+                <label for=""> Nom et prénom:</label> <input type="text" id="np"/>
+                <label for="ne"> Nombre d'enfant</label> <input type="number" id="ne" />
+            </div>
+            <div>
+                <label for="dn"> Date de naissance:</label> <input type="date" id="dn" />
+                <label> Votre genre:</label> <input type="radio" id="g1" name="genre" />
+                <label for="g1"> Masculin</label> <input type="radio" id="g2" name="genre" /><label for="g2"> Féminin</label>
+            </div>
+            <div>
+                <label for="adr"> Destination:</label><textarea id="des" required></textarea>
+            </div>
+            <div>
+                <label for="phone"> N° Tel:</label> <input type="tel" id="phone" />
+                <label for="mail"> Adresse Email:</label> <input type="email" id="mail" />
+            </div>
+            <div>
+                <label for="dn"> Date d'entrée:</label> <input type="date" id="de" />
+                <label for="dn"> Date de sortie:</label> <input type="date" id="ds" />
+            </div>
+            <div>
+                <label for="robot">Je ne suis pas un robot</label>
+                <input type="checkbox" id="robot"  required >
+            </div>
+            <div>
+                <input class="btn" type="submit" value="Inscription"/>
+                <input class="btn" type="reset" value="Rétablir"/>
+            </div>
+        </fieldset>
+    </form>  
+</body>
+</html>

@@ -1,0 +1,129 @@
+/* nav.html */
+.bnav {
+  background-color: #121227;
+}
+.nav a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+  display: list-item;
+  letter-spacing: 2px;
+  padding: 20px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+.nav a:hover {
+  background-color: rgb(12, 59, 189);
+  transition: 0.5s;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+/* foot.html    */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+footer .copyright {
+  width: 100%;
+  text-align: center;
+}
+.col a {
+  padding: 10px;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+/* gallerie */
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  color: #83858c;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+.tab {
+  display: flex;
+  justify-content: space-between;
+}
+.image {
+  width: 200px;
+  height: 200px;
+}
+
+.t {
+  background-color: #83858c;
+  color: aliceblue;
+  margin: 50px;
+  padding: 10px;
+  border-radius: 15px;
+  width: 290px;
+  list-style: none;
+}
+.t:hover {
+  background-color: #121227;
+  transition: 0.5s;
+}
+
+.bt {
+  margin-top: 20px;
+  background-color: rgb(61, 141, 211);
+  border-color: rgb(61, 141, 211);
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+}
+
+.bt:hover {
+  background-color: rgb(12, 59, 189);
+  border-color: rgb(12, 59, 189);
+  transition: 0.5s;
+  color: aliceblue;
+}
+
+/* Reservation */
+#reserv {
+  background-color: rgb(72, 155, 249);
+}
+fieldset legend {
+  color: aliceblue;
+}
+fieldset {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(72, 155, 249);
+}
+fieldset div {
+  padding: 25px;
+}
+fieldset input {
+  border-radius: 5px;
+}
+.btn {
+  background-color: aliceblue;
+  color: rgb(28, 37, 221);
+  border-color: aliceblue;
+}
+.btn:hover {
+  background-color: rgb(31, 13, 162);
+  border-color: blue;
+  color: aliceblue;
+  transition: 0.5s;
+}
